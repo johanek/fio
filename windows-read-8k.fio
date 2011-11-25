@@ -1,0 +1,12 @@
+[random]
+rw=read
+size=1g
+directory=N:\fio\
+iodepth=403
+direct=1
+blocksize=8k
+numjobs=16
+nrfiles=1
+group_reporting
+ioengine=windowsaio
+loops=1
